@@ -20,6 +20,12 @@
 		"enabled": true,
 		"rules": {
 			"recommended": true,
+			"style":{
+				"useNamingConvention":"error"
+			},
+			"complexity":{
+				"useArrowFunction":"error"
+			},
 			"a11y":{
 				"useAltText":"error",
 				"noBlankTarget":"warn"
